@@ -57,6 +57,10 @@ padding:25px;
 border-radius:8px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 width:45%;
+transition:transform 0.3s;
+}
+.card:hover{
+transform:translateY(-10px);
 }
 
 /* Gallery Images */
@@ -118,4 +122,11 @@ iframe{
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 margin-top:20px;
+}
+img{
+transition:transform 0.3s;
+}
+
+img:hover{
+transform:scale(1.05);
 }
