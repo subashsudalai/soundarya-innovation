@@ -1,1 +1,35 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
 
+header{
+background:#0a6;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+}
+
+section{
+padding:30px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
